@@ -4,7 +4,7 @@ import { createContext } from "react";
 export const AuthContext = createContext();
 
 const init = {
-  auth: true,
+  auth: false,
   token: null,
   cart: [],
 };
